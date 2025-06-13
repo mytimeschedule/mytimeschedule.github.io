@@ -4,22 +4,38 @@
   <meta charset="UTF-8">
   <title>My Time Schedule</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 2em; text-align: center; }
+    img.logo { width: 150px; margin-bottom: 1em; }
+    .first-line { margin: 0.5em 0; }
+    .badges { display: flex; justify-content: center; gap: 1em; flex-wrap: wrap; margin: 1.5em 0; }
+    .badges img { height: 60px; }
+    footer { margin-top: 2em; font-size: 0.9em; color: gray; }
+    a { text-decoration: none; color: #0066cc; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
-<body style="font-family:sans-serif;max-width:600px;margin:auto;padding:2em;">
-  <h1>🧘 My Time Schedule</h1>
-  <p>A mindfulness-based daily planner inspired by Buddhist discipline and practice.</p>
+<body>
+  <!-- Logo -->
+  <img class="logo" src="https://raw.githubusercontent.com/mytimeschedule/my_time_schedule/main/assets/logo.svg" alt="My Time Schedule Logo">
 
-  <h2>Download</h2>
-  <ul>
-    <li>📱 <a href="https://play.google.com/store/apps/details?id=org.americanmonk.mytimeschedule">Android (Google Play)</a></li>
-    <li>🍎 <a href="https://apps.apple.com/us/developer/path-nirvana-foundation/id1434955292">iOS (App Store)</a></li>
-  </ul>
+  <h1>My Time Schedule 🧘</h1>
+  <p class="first-line">A mindful daily planner inspired by Buddhist discipline.</p>
 
-  <h2>Source Code</h2>
-  <p><a href="https://github.com/mytimeschedule/my_time_schedule">View on GitHub</a></p>
+  <!-- Download badges -->
+  <div class="badges">
+    <a href="https://play.google.com/store/apps/details?id=org.americanmonk.mytimeschedule" aria-label="Get it on Google Play">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+    </a>
+    <a href="https://apps.apple.com/us/developer/path-nirvana-foundation/id1434955292" aria-label="Download on the App Store">
+      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=&amp;h=" alt="Download on the App Store">
+    </a>
+  </div>
 
-  <footer style="margin-top:2em;font-size:0.9em;color:gray;">
-    <p>Maintained by Bhikkhu Subhūti, for the benefit of the Dhamma. <br> Domain: <a href="https://americanmonk.org">americanmonk.org</a></p>
+  <p>Explore the full source code on <a href="https://github.com/mytimeschedule/my_time_schedule" target="_blank">GitHub</a>.</p>
+
+  <footer>
+    <p>Maintained by Bhikkhu Subhūti • <a href="https://americanmonk.org">americanmonk.org</a></p>
   </footer>
 </body>
 </html>
